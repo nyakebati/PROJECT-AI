@@ -10,13 +10,13 @@ This repository contains several independent Python tasks and one Jupyter notebo
 - Evaluates the model on the test set and displays a few sample images with predicted vs actual labels.
 - Suitable for exploring TensorFlow/Keras image classification and basic model training.
 
-### `part a (1).py`
+### `MNIST/part a (1).py`
 - Implements a simple graph coloring problem for a small map of Australian regions.
 - Uses recursive backtracking to assign one of three colors to regions so that no adjacent regions share the same color.
 - Prints the resulting color assignment and visualizes the map using `matplotlib`.
 - This is a standalone algorithmic task focused on constraint satisfaction and backtracking.
 
-### `part b (1).py`
+### `MNIST/part b (1).py`
 - Solves a larger graph coloring problem using Nairobi sub-counties.
 - Computes the minimum number of colors needed for the map and visualizes the region graph with `networkx` and `matplotlib`.
 - Uses recursive backtracking with dynamic color set selection.
@@ -37,6 +37,7 @@ This repository contains several independent Python tasks and one Jupyter notebo
 ## Notes
 
 - Each `.py` file is a separate task and can be run independently.
+- `part a (1).py` and `part b (1).py` are located inside the `MNIST/` folder.
 - The repository also includes a `.venv/` directory for a virtual environment and a `.gitignore` file to exclude environment or generated files.
 - To run the notebook, use Jupyter Lab or Jupyter Notebook and open `n_queens_hill_climbing.ipynb`.
 
@@ -50,8 +51,8 @@ This repository contains several independent Python tasks and one Jupyter notebo
 3. Run one of the Python task files:
    ```bash
    python "learnNumbers (1).py"
-   python "part a (1).py"
-   python "part b (1).py"
+   python "MNIST/part a (1).py"
+   python "MNIST/part b (1).py"
    ```
 4. Open the notebook:
    ```bash
